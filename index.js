@@ -11,6 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = "Hassan Mohammed";
+let yearOfBirth = 1998;
+let hobby = "watching movies";
+let funFact = "i like to code";
+const image = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg";
 
 
 
