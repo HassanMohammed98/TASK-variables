@@ -38,7 +38,9 @@ const image = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.j
 // const yearOfBirthString =
 // const hobbyString =
 
-
+let fullNameString = `My name is ${"Hassan Mohammed"}`;
+let yearOfBirthString = `I am ${23}`;
+let hobbyString = `My hobby is ${"watching movies"}`;
 
 
 /**
@@ -49,15 +51,19 @@ const image = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.j
 let stars = 0;
 
 function incrementBy1() {
+  stars++;
   // Increment stars by 1 👇🏻
 }
 function decrementBy1() {
+  stars--;
   // decrement stars by 1 👇🏻
 }
 
 function incrementBy2() {
+  stars +=2;
   // Increment stars by 2 👇🏻
 }
 function decrementBy2() {
+  stars -=2;
   // decrement stars by 2 👇🏻
 }
