@@ -15,11 +15,8 @@ let fullName = "Hassan Mohammed";
 let yearOfBirth = 1998;
 let hobby = "watching movies";
 let funFact = "i like to code";
-const image = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg";
-
-
-
-
+const image =
+  "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg";
 
 /**
  * Part 2: String Interpolation
@@ -29,7 +26,7 @@ const image = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.j
  * 1. fullNameString      -> assign it to: My name is {fullName}
  * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
@@ -39,9 +36,8 @@ const image = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.j
 // const hobbyString =
 
 let fullNameString = `My name is ${"Hassan Mohammed"}`;
-let yearOfBirthString = `I am ${23}`;
+let yearOfBirthString = `I am ${2022 - yearOfBirth}`;
 let hobbyString = `My hobby is ${"watching movies"}`;
-
 
 /**
  * Part 3: Re-assignment
@@ -60,10 +56,10 @@ function decrementBy1() {
 }
 
 function incrementBy2() {
-  stars +=2;
+  stars += 2;
   // Increment stars by 2 👇🏻
 }
 function decrementBy2() {
-  stars -=2;
+  stars -= 2;
   // decrement stars by 2 👇🏻
 }
